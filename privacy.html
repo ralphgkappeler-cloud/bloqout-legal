@@ -30,7 +30,7 @@
 <main>
   <a class="back" href="./index.html">&larr; Retour</a>
   <h1>Politique de Confidentialité — BloqOut</h1>
-  <p class="updated">Dernière mise à jour : 30 avril 2026</p>
+  <p class="updated">Dernière mise à jour : 28 septembre 2026</p>
   <hr>
 
   <h2>1. Présentation</h2>
@@ -53,13 +53,21 @@
 
   <h3>2.2 Données transmises à des tiers</h3>
   <p><strong>Google Gemini (Google LLC)</strong><br>
-  Lorsque vous utilisez les défis de langue ou le coach sportif IA, certaines données sont envoyées à l'API Google Gemini pour générer du contenu :</p>
+  Lorsque vous utilisez les défis de langue, les défis mentaux ou le coach sportif IA, certaines données sont envoyées à l'API Google Gemini pour générer du contenu :</p>
   <ul>
-    <li><em>Défis de langue</em> : votre langue source, votre langue cible et la catégorie sélectionnée</li>
+    <li><em>Défis de langue et défis mentaux</em> : la langue d'affichage de l'application, la langue cible (défis de langue), la catégorie ou le niveau sélectionné, et la liste des questions déjà posées afin d'éviter les répétitions</li>
     <li><em>Coach sportif</em> : votre objectif (perte de poids, muscle, etc.), votre niveau, vos jours disponibles, votre équipement, vos blessures déclarées librement (champ texte)</li>
   </ul>
   <p>Aucun identifiant personnel (nom, email, identifiant d'appareil) n'est inclus dans ces requêtes. Les données envoyées peuvent toutefois contenir du texte que vous saisissez librement dans le champ « Blessures / limitations ». Nous vous recommandons de <strong>ne pas y inscrire d'informations médicales sensibles ou identifiantes</strong>.<br>
   &rarr; Politique de confidentialité Google : <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+  <p><strong>Google AdMob (Google LLC)</strong> <em>(version gratuite uniquement)</em><br>
+  La version gratuite affiche des publicités (bannière et interstitiels) via Google AdMob. AdMob peut collecter et traiter des identifiants d'appareil (dont l'identifiant publicitaire, IDFA, si vous l'autorisez), des données d'interaction avec les publicités, des données de diagnostic et une localisation approximative déduite de l'adresse IP, afin de diffuser et mesurer les publicités.</p>
+  <ul>
+    <li>Sur iOS, une fenêtre de consentement (Google UMP, selon votre région) puis la demande d'autorisation de suivi d'Apple (App Tracking Transparency) vous sont présentées : <strong>vous pouvez refuser sans perdre l'accès à l'application</strong>, vous verrez alors des publicités non personnalisées.</li>
+    <li>Les abonnés à une formule payante ne voient pas de publicités.</li>
+  </ul>
+  <p>&rarr; Politique de confidentialité Google : <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a><br>
+  &rarr; Comment Google utilise les données des applications partenaires : <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></p>
   <p><strong>Expo (Expo Inc.)</strong><br>
   L'application est construite avec le framework Expo. Expo peut collecter des données techniques anonymes liées au fonctionnement de l'application (crashes, diagnostics).<br>
   &rarr; Politique de confidentialité Expo : <a href="https://expo.dev/privacy">https://expo.dev/privacy</a></p>
@@ -75,13 +83,15 @@
   <h3>Android</h3>
   <ul>
     <li><strong>Accès à l'usage des applications (PACKAGE_USAGE_STATS)</strong> : nécessaire pour détecter quelle application est au premier plan et déclencher le blocage. Ces données ne quittent jamais votre appareil.</li>
-    <li><strong>Caméra</strong> : utilisée uniquement pour la détection de mouvements en temps réel lors des défis physiques (pompes, squats…). Les images ne sont pas enregistrées ni transmises.</li>
+    <li><strong>Caméra</strong> : utilisée pour la détection de mouvements en temps réel lors des défis physiques (pompes, squats…). L'analyse se fait sur votre appareil ; les images ne sont pas transmises. À la dernière répétition d'un défi, une photo peut être prise pour illustrer la carte de partage : elle reste dans le stockage temporaire de l'application sur votre appareil, n'est jamais envoyée à un serveur, et n'est partagée que si vous choisissez vous-même de partager la carte.</li>
     <li><strong>Notifications</strong> : pour vous avertir de la fin d'un déblocage et vous rappeler vos défis quotidiens.</li>
   </ul>
   <h3>iOS</h3>
   <ul>
     <li><strong>Caméra</strong> : même usage que décrit ci-dessus.</li>
     <li><strong>Notifications</strong> : même usage que décrit ci-dessus.</li>
+    <li><strong>Capteur de mouvement</strong> <em>(mode alternatif facultatif)</em> : détecte les pompes via les vibrations du sol. Aucune donnée n'est partagée.</li>
+    <li><strong>Suivi (App Tracking Transparency)</strong> <em>(facultatif)</em> : uniquement pour des publicités plus pertinentes ; refuser n'empêche aucune fonctionnalité.</li>
     <li><strong>Family Controls</strong> <em>(si l'autorisation Apple est accordée)</em> : utilisée pour le blocage natif des applications. Aucune donnée d'usage n'est transmise hors de votre appareil.</li>
   </ul>
 
