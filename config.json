@@ -1,0 +1,4 @@
+{
+  "_aide": "adGapMinutes = minutes minimum entre deux pubs plein écran (entre 5 et 1440). Lu par l'app à chaque lancement.",
+  "adGapMinutes": 60
+}
