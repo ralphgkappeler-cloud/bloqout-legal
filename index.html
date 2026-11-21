@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BloqOut — Informations légales</title>
+  <title>BloqOut — Bloque tes apps, débloque-les en te bougeant</title>
+  <meta name="description" content="BloqOut bloque les applications de ton choix. Pour les débloquer, fais un défi : pompes comptées par la caméra, calcul mental, langues ou culture générale.">
   <style>
     :root { color-scheme: dark; }
     * { box-sizing: border-box; }
@@ -12,26 +13,37 @@
       background: #000; color: #e6e6e6;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       display: flex; flex-direction: column; align-items: center; justify-content: center;
-      padding: 32px 20px; text-align: center;
+      padding: 48px 20px; text-align: center; line-height: 1.55;
     }
-    h1 { font-size: 2rem; margin: 0 0 8px; }
+    h1 { font-size: 2.4rem; margin: 0 0 12px; }
     .accent { color: #00ffcc; }
-    p { color: #9a9a9a; margin: 0 0 32px; }
-    .links { display: flex; flex-direction: column; gap: 14px; width: 100%; max-width: 360px; }
+    .lead { color: #cfcfcf; font-size: 1.15rem; max-width: 560px; margin: 0 0 28px; }
+    .how { list-style: none; padding: 0; margin: 0 0 32px; max-width: 520px; text-align: left; }
+    .how li { padding: 10px 0; border-bottom: 1px solid #1c1c1c; color: #bdbdbd; }
+    .how strong { color: #fff; }
+    .soon { color: #00ffcc; font-weight: 600; margin: 0 0 36px; }
+    .links { display: flex; flex-direction: column; gap: 12px; width: 100%; max-width: 360px; }
     a.card {
-      display: block; padding: 18px 20px; border-radius: 14px;
+      display: block; padding: 16px 20px; border-radius: 14px;
       background: #111; border: 1px solid #222; color: #fff;
-      text-decoration: none; font-weight: 600; font-size: 1.05rem;
+      text-decoration: none; font-weight: 600;
       transition: border-color .15s, background .15s;
     }
     a.card:hover { border-color: #00ffcc; background: #141414; }
-    footer { margin-top: 40px; color: #555; font-size: .85rem; }
-    footer a { color: #777; }
+    footer { margin-top: 40px; color: #666; font-size: .85rem; }
+    footer a { color: #888; }
   </style>
 </head>
 <body>
   <h1>Bloq<span class="accent">Out</span></h1>
-  <p>Informations légales</p>
+  <p class="lead">Bloque les applications qui te prennent trop de temps. Pour les rouvrir, il faut d'abord relever un défi.</p>
+  <ul class="how">
+    <li><strong>Défis physiques</strong> : pompes, squats et autres exercices comptés par la caméra du téléphone.</li>
+    <li><strong>Défis de tête</strong> : calcul mental, énigmes, culture générale.</li>
+    <li><strong>Langues</strong> : vocabulaire et phrases, du niveau A1 au C2.</li>
+    <li><strong>Coach et Mode Focus</strong> : un programme d'entraînement, et un mode sans jokers où tes blocages sont verrouillés.</li>
+  </ul>
+  <p class="soon">Bientôt sur l'App Store et Google Play.</p>
   <div class="links">
     <a class="card" href="./privacy.html">Politique de confidentialité</a>
     <a class="card" href="./terms.html">Conditions générales d'utilisation</a>
