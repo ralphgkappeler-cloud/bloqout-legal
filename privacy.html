@@ -35,7 +35,7 @@
   <a class="back" href="./index.html">&larr; Retour</a>
   <div class="langs"><a class="on" href="./privacy.html" hreflang="fr">Français</a> <a href="./privacy-en.html" hreflang="en">English</a> <a href="./privacy-es.html" hreflang="es">Español</a> <a href="./privacy-de.html" hreflang="de">Deutsch</a> <a href="./privacy-it.html" hreflang="it">Italiano</a> <a href="./privacy-ru.html" hreflang="ru">Русский</a> <a href="./privacy-ar.html" hreflang="ar">العربية</a> <a href="./privacy-hi.html" hreflang="hi">हिन्दी</a> <a href="./privacy-pt.html" hreflang="pt">Português</a></div>
   <h1>Politique de confidentialité — BloqOut</h1>
-  <p class="updated">Dernière mise à jour : 22 novembre 2026</p>
+  <p class="updated">Dernière mise à jour : 26 novembre 2026</p>
   <hr>
 
   <h2>1. En bref</h2>
@@ -57,6 +57,7 @@
     <li>ton programme du Coach (objectif, niveau, jours, et le texte libre « souhaits et limitations ») ;</li>
     <li>tes niveaux de langue et les mots à réviser ;</li>
     <li>tes réglages (langue, thème, Mode Focus, Mode Parent et son code, enregistré sous forme d’empreinte, jamais en clair) ;</li>
+    <li>ta réserve de minutes, ta série et tes protège-séries, le défi du jour, et ta réponse à « Combien de temps tu passes sur ton téléphone ? » ;</li>
     <li>la liste de tes achats telle que renvoyée par Apple ou Google.</li>
   </ul>
   <p>Sur iPhone, les apps choisies dans Temps d'écran sont des jetons opaques fournis par Apple : BloqOut ne voit ni leurs noms ni ton temps d'écran. Sur Android, la liste des applications installées sert seulement à te laisser choisir quoi bloquer, sur ton téléphone. La <strong>sauvegarde</strong> (Réglages › Sauvegarde) crée un fichier que tu enregistres où tu veux : nous ne le recevons pas.</p>
@@ -64,7 +65,7 @@
   <h2>4. Caméra, capteurs et autorisations</h2>
   <ul>
     <li><strong>Caméra</strong> : pendant un défi physique, des images sont analysées sur ton téléphone pour compter les répétitions, puis effacées aussitôt. À la dernière répétition, une photo peut être prise pour la carte de victoire : elle reste sur ton téléphone et n'est partagée que si tu choisis de partager la carte.</li>
-    <li><strong>Capteur de mouvement / podomètre</strong> : pour les défis de marche et le mode de comptage par vibrations. Rien n'est envoyé.</li>
+    <li><strong>Capteur de mouvement / podomètre</strong> : pour les défis de marche et pour vérifier que le téléphone est posé à plat (pompes avec le nez). Rien n'est envoyé.</li>
     <li><strong>Apple Santé (iPhone, facultatif)</strong> : seulement si tu l'autorises, BloqOut <em>lit</em> tes minutes d'exercice et tes séances du jour (type, durée, distance) pour les transformer en minutes de réserve. Rien n'est écrit dans Apple Santé, rien n'est envoyé, et ces données ne servent jamais à la publicité.</li>
     <li><strong>Temps d'écran (iPhone)</strong> et <strong>accès à l'utilisation + affichage par-dessus (Android)</strong> : pour bloquer ce que tu choisis. Rien n'est envoyé.</li>
     <li><strong>Service d'accessibilité « BloqOut – sites » (Android, facultatif)</strong> : lit seulement la barre d'adresse des navigateurs pour bloquer les sites que tu as choisis. Rien n'est lu pendant la saisie, rien n'est enregistré ni envoyé.</li>
@@ -78,11 +79,14 @@
   <h3>Google AdMob (Google) — publicités, version gratuite seulement</h3>
   <p>AdMob peut traiter l'identifiant publicitaire de l'appareil (si tu l'autorises), l'adresse IP (dont une localisation approximative), tes interactions avec les publicités et des données de diagnostic, pour afficher et mesurer les publicités et lutter contre la fraude. Avant toute publicité, l'Application t'explique le fonctionnement, puis te présente le choix de consentement de Google (dans l'Union européenne, au Royaume-Uni et en Suisse) et, sur iPhone, la demande de suivi d'Apple. Si tu refuses, tu vois des publicités non personnalisées. Les abonnés ne voient aucune publicité. Tu peux changer ton choix à tout moment dans les Réglages de BloqOut. → <a href="https://policies.google.com/privacy">Politique de Google</a> · <a href="https://policies.google.com/technologies/partner-sites">Comment Google utilise les données des applications partenaires</a></p>
   <h3>RevenueCat (États-Unis) — abonnements</h3>
-  <p>RevenueCat reçoit un identifiant d'achat anonyme et l'historique de tes achats (fourni par Apple ou Google) pour savoir quelles fonctions sont débloquées. Aucune donnée bancaire ne passe par BloqOut. → <a href="https://www.revenuecat.com/privacy">Politique de RevenueCat</a></p>
+  <p>RevenueCat reçoit un identifiant d'achat anonyme et l'historique de tes achats (fourni par Apple ou Google) pour savoir quelles fonctions sont débloquées. Aucune donnée bancaire ne passe par BloqOut. Il reçoit aussi des informations techniques (pays, langue, versions de l'Application et du système). → <a href="https://www.revenuecat.com/privacy">Politique de RevenueCat</a></p>
   <h3>Apple et Google — paiements et stores</h3>
   <p>Les paiements sont traités par Apple ou Google selon leurs propres politiques.</p>
   <h3>Site bloqout.com (hébergé par GitHub) — réglages et heure</h3>
   <p>L'Application télécharge un petit fichier de réglages et lit l'heure d'internet sur notre site, pour fonctionner même si l'heure du téléphone est modifiée. Comme pour tout site, l'hébergeur (GitHub) voit l'adresse IP de la requête. Aucune donnée te concernant n'est envoyée.</p>
+
+  <h3>Google (TensorFlow Hub) — modèle de la caméra, seulement en secours</h3>
+  <p>Le modèle qui reconnaît les mouvements est intégré à l'Application. S'il ne peut pas se charger, l'Application le télécharge une fois depuis les serveurs de Google. Comme pour tout site, Google voit alors l'adresse IP de la requête. Aucune image et aucune donnée te concernant ne sont envoyées.</p>
 
   <h2>6. Pourquoi et sur quelle base</h2>
   <ul>
